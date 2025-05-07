@@ -24,3 +24,7 @@ For support, please visit: https://github.com/jose987654/kodi-repository
 ## Disclaimer
 
 This addon is not affiliated with Seedr. Use at your own risk.
+
+<pre>
+<img src="../icons/compressed.gif" alt="[DIR]" > <a href="plugin.video.seedr-0.5.0.zip">plugin.video.seedr-0.5.0.zip/</a> 
+</pre>

@@ -26,7 +26,6 @@ For support, please visit: https://github.com/jose987654/kodi-repository
 This addon is not affiliated with Seedr. Use at your own risk.
 
 <pre>
-<img src="icons/folder.gif" alt="[DIR]" > <a href="./">./</a> 
 <img src="icons/folder.gif" alt="[DIR]" > <a href="repository.seedr/">repository.seedr/</a> 
 <img src="icons/folder.gif" alt="[DIR]" > <a href="plugin.video.seedr/">plugin.video.seedr/</a> 
 </pre>

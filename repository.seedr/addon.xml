@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.seedr" name="Seedr Repository" version="1.0.0" provider-name="Seedr.cc">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Seedr Kodi addon Repository">
+        <dir>
+            <info>https://jose987654.github.io/kodi-repository/addons.xml</info>
+            <checksum>https://jose987654.github.io/kodi-repository/addons.xml.md5</checksum>
+            <datadir>https://jose987654.github.io/kodi-repository/</datadir>
+            <art>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </art>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <news>First release</news>
+        <summary lang="en_GB">Seedr Kodi Repository</summary>
+        <description lang="en_GB">This repository is created for distributing Seedr Kodi plugins. Enjoy!</description>
+        <disclaimer lang="en_GB">This repository is non-commercial. You may use it as is at your own discretion and risk.</disclaimer>
+        <platform>all</platform>
+        <language>en_GB</language>
+        <license>GPL-2.0</license>
+        <forum>https://github.com/jose987654/kodi-repository</forum>
+        <website>https://www.seedr.cc/</website>
+        <email>admin@seedr.cc</email>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+        <source>https://github.com/jose987654/kodi-repository/</source>
+    </extension>
+</addon> 

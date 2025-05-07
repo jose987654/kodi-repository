@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons>
+<addon id="repository.seedr" version="1.0.0" name="Seedr Kodi Repository" provider-name="Seedr.cc">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0" />
+    </requires>
+    <extension point="xbmc.addon.repository" name="Seedr Kodi Repository">
+        <dir minversion="18.0" maxversion="18.9.0">
+            <info compressed="false">https://jose987654.github.io/kodi-repository/addons.xml</info>
+            <checksum>https://jose987654.github.io/kodi-repository/addons.xml.md5</checksum>
+            <datadir zip="true">https://jose987654.github.io/kodi-repository/</datadir>
+        </dir>
+        <dir minversion="18.9.1" maxversion="19.5">
+            <info compressed="false">https://jose987654.github.io/kodi-repository/addons.xml</info>
+            <checksum>https://jose987654.github.io/kodi-repository/addons.xml.md5</checksum>
+            <datadir zip="true">https://jose987654.github.io/kodi-repository/</datadir>
+        </dir>
+        <dir minversion="21.0">
+            <info compressed="false">https://jose987654.github.io/kodi-repository/addons.xml</info>
+            <checksum>https://jose987654.github.io/kodi-repository/addons.xml.md5</checksum>
+            <datadir zip="true">https://jose987654.github.io/kodi-repository/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Seedr Kodi Repository</summary>
+        <description lang="en_GB">This repository contains the Seedr Torrent Cloud add-on for Kodi, allowing you to stream torrents from your Seedr.cc cloud storage.</description>
+        <disclaimer lang="en_GB">This repository is non-commercial GPL-3.0. You may use it at your own discretion and risk.</disclaimer>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+<addon id="plugin.video.seedr" name="Seedr Torrent Cloud" version="0.5.0" provider-name="Seedr.cc">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+        <import addon="script.module.simplejson" version="3.17.0" />
+        <import addon="script.module.requests" version="2.22.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Download Torrents to the cloud -- Stream them through Kodi, your phone, your PC, your lawnmower :-) www.seedr.cc Account required</summary>
+        <description lang="en_GB">Seedr Torrent Cloud is a Kodi add-on that allows you to stream torrents directly from your Seedr.cc cloud storage without having to download them first.</description>
+        <language>en_GB</language>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <forum></forum>
+        <website>https://www.seedr.cc/</website>
+        <email>admin@seedr.cc</email>
+        <source>https://github.com/dannyzb/seedr_kodi</source>
+        <news>https://www.facebook.com/seedrcc/</news>
+        <disclaimer>This plugin and all it's content, unless otherwise specified, is property of Seedr.cc</disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons> 
+

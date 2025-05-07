@@ -28,7 +28,7 @@ This addon is not affiliated with Seedr. Use at your own risk.
 <pre>
 <img src="icons/folder.gif" alt="[DIR]" > <a href="repository.seedr/">repository.seedr/</a> 
 <img src="icons/folder.gif" alt="[DIR]" > <a href="plugin.video.seedr/">plugin.video.seedr/</a> 
-<img src="icons/compressed.gif" alt="[DIR]" > <a href="repository.seedr-1.0.0.zip/">repository.seedr-1.0.0.zip</a> 
+<img src="icons/compressed.gif" alt="[DIR]" > <a href="repository.seedr-1.0.0.zip">repository.seedr-1.0.0.zip</a> 
 </pre>
 
 ## Installation as Source in Kodi
